@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+}
+
+nav {
+  background-color: #5d4954;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  z-index: 2;
+  right: 3%;
+  top: 3%;
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.line1 {
+  background-color: white;
+  width: 30px;
+  height: 3px;
+  margin-bottom: 5px;
+}
+
+.line2 {
+  background-color: white;
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+}
+
+.line3 {
+  background-color: white;
+  width: 20px;
+  height: 3px;
+}
+
+
+.landing {
+  height: 90vh;
+  background-image: url(tahoe.jpg);
+  background-position: left;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
